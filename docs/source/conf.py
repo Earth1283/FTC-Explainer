@@ -16,6 +16,7 @@ release = '0.1'
 
 extensions = [
     'sphinx_rtd_theme',
+    'sphinxcontrib.mermaid',
 ]
 
 templates_path = ['_templates']
