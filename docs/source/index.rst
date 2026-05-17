@@ -8,3 +8,10 @@ Welcome to FTC-Explainer!
 
 This documentation provides information about common control mechanisms, concepts, etc
 used in FTC.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   decode_intro
+
