@@ -16,6 +16,7 @@ release = '1.0'
 
 extensions = [
     'sphinxcontrib.mermaid',
+    'sphinx.ext.mathjax',
 ]
 
 templates_path = ['_templates']
