@@ -1,3 +1,5 @@
 sphinx>=7.0.0
 furo
 sphinxcontrib-mermaid
+sphinx-copybutton
+sphinx-design

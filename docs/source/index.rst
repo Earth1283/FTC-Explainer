@@ -14,4 +14,5 @@ used in FTC.
    :caption: Contents:
 
    decode_intro
+   robot/index
 

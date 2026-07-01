@@ -17,12 +17,24 @@ release = '1.0'
 extensions = [
     'sphinxcontrib.mermaid',
     'sphinx.ext.mathjax',
+    'sphinx.ext.autosectionlabel',
+    'sphinx_copybutton',
+    'sphinx_design',
 ]
+
+# Prefix section labels with the document name so identical headings in
+# different pages (e.g. "Overview") don't collide when cross-referenced.
+autosectionlabel_prefix_document = True
 
 templates_path = ['_templates']
 exclude_patterns = []
 
 language = 'en'
+
+# Copy buttons: skip the '$ ' shell prompt and '>>> ' REPL prompt so users
+# copy only runnable text.
+copybutton_prompt_text = r">>> |\$ "
+copybutton_prompt_is_regexp = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
